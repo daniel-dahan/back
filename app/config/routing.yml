@@ -1,0 +1,23 @@
+sf_web_app_cms:
+    resource: "@SfWebAppCmsBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+sf_web_app_front_office:
+    resource: "@SfWebAppFrontOfficeBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+sf_web_app_back_office:
+    resource: "@SfWebAppBackOfficeBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+sf_web_app_main:
+    resource: "@SfWebAppMainBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
